@@ -1,0 +1,1332 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 52px 0px 53px;
+    gap: 25px;
+
+    position: absolute;
+    width: 520px;
+    height: 435px;
+    left: 833px;
+    top: 294px;
+}
+.form-select{
+    /* Frame 1 */
+
+
+width: 415px;
+height: 66px;
+
+background: #ECECEC;
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.bt-singup{
+/* Button */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 28px;
+gap: 10px;
+
+width: 359px;
+height: 44px;
+
+background: linear-gradient(92.51deg, #3FC4DE 0.48%, #4BDA83 50.24%, #3FC3E0 99.98%, #8054FF 99.99%);
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.p-signup{
+    /* Text */
+
+
+width: 155px;
+height: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 20px;
+/* identical to box height, or 80% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.nav{
+    /* Rectangle 2812 */
+
+
+position: absolute;
+width: 1440px;
+height: 174px;
+left: 0px;
+top: 0px;
+
+background: #F9F9F9;
+}
+
+.singup{
+    /* Singup */
+
+
+position: absolute;
+width: 256px;
+height: 120px;
+left: 965px;
+top: 174px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+/* or 167% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #18181C;
+}
+
+.help{
+    /* Frame 3702 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+position: absolute;
+width: 372px;
+height: 75.65px;
+left: 68px;
+top: 65.93px;
+}
+
+#logo{
+/* Help me logo */
+
+
+width: 62.41px;
+height: 59px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.help-me{
+    /* Help ME */
+
+
+width: 294.39px;
+height: 75.65px;
+
+font-family: 'ITC Avant Garde Gothic Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 65.2569px;
+line-height: 68px;
+/* or 104% */
+
+
+/* Help Me */
+
+background: linear-gradient(268.28deg, #3FC3E0 0%, #4CDB80 99.87%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.login{
+    /* Rectangle 2813 */
+
+
+position: absolute;
+width: 155px;
+height: 50px;
+left: 1178px;
+top: 63px;
+
+background: linear-gradient(264.06deg, #4CDB80 34.9%, #3FC3E0 100%);
+border-radius: 5.95238px;
+}
+.try{
+    /* Try it out */
+
+
+position: absolute;
+width: 82px;
+height: 25px;
+left: 1046px;
+top: 76px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.button{
+    width: 155px;
+    height: 50px;
+    background: linear-gradient(264.06deg, #4CDB80 34.9%, #3FC3E0 100%);
+    border-radius: 5.95238px;
+    text-decoration: none;
+    }
+
+input[placeholder]{
+    
+width: 359px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 20px;
+/* identical to box height, or 80% */
+
+text-align: center;
+
+color: #747474;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    gap: 10px;
+    
+    width: 415px;
+    height: 44px;
+    
+    background: #ECECEC;
+    border-radius: 5px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.text{
+    width: 359px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 20px;
+/* identical to box height, or 80% */
+
+text-align: center;
+
+color: #747474;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.logingoogle{
+
+/* Login Google */
+
+
+width: 168px;
+height: 51px;
+
+background: #dbdbdb;
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+/* Home css*/
+
+.body{
+    background: #D9D9D9;
+}
+.singupnow{
+    /* Singup now */
+
+
+position: absolute;
+width: 109px;
+height: 25px;
+left: 1030px;
+top: 76px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #000000;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+}
+.h1{
+
+/* HELP ME is a website that provides some general services to all users */
+
+
+position: absolute;
+width: 651px;
+height: 320px;
+left: 71px;
+top: 291px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 80px;
+/* or 125% */
+
+
+color: #18181C;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+}
+.p{
+    /* Its simple and its free way to find almost any location you necessary want */
+
+
+position: absolute;
+width: 550px;
+height: 65px;
+left: 72px;
+top: 648px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+/* or 117% */
+
+
+color: #9E9DA2;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+}
+
+.onthewy{
+    /* On the way-pana 1 */
+
+
+position: absolute;
+width: 539px;
+height: 565px;
+left: 810px;
+top: 240px;
+}
+
+#try{
+
+/* Rectangle 3 */
+position: absolute;
+width: 197px;
+height: 67px;
+
+background: #000000;
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+}
+.ptry{
+    /* Try it out */
+
+
+position: absolute;
+width: 109px;
+height: 1px;
+left: 40px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 24.6006px;
+line-height: 0px;
+/* or 0% */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+}
+
+#login{
+    /* Auto layout */
+    position: absolute;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px 68px;
+
+width: 200.5px;
+height: 67px;
+left: 250px;
+
+background: #000000;
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01), 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+.plogin{
+    /* Login */
+
+    position: absolute;
+    bottom: 14px;
+width: 63px;
+height: 1px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 24.6006px;
+line-height: 0px;
+/* or 0% */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.helpmecolor{
+    background: linear-gradient(93.4deg, #3FC3E0 0%, #4CDB80 42.91%);
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+}
+.BTryLogin{
+    /* Frame 3721 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 74px;
+
+position: absolute;
+width: 475px;
+height: 67px;
+left: 125px;
+top: 742px;
+}
+
+.p2{
+    /* What is the services that Help Me provides */
+
+
+position: absolute;
+width: 476px;
+height: 101px;
+left: 485px;
+top: 1014px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 46.3862px;
+line-height: 50px;
+/* or 109% */
+
+text-align: center;
+
+color: #000000;
+}
+#card{
+    position: absolute;
+width: 1442px;
+height: 474.4px;
+left: 0px;
+top: 1130px;
+}
+.helpme{
+    /* Help me */
+
+    justify-content: center;
+position: absolute;
+width: 84px;
+height: 32px;
+left: 149.75px;
+top: 201.86px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+text-align: center;
+
+color: #000000;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+transform: rotate(-1.49deg);
+}
+.card1{
+    /* BookTravel */
+
+
+width: 358.49px;
+height: 385.19px;
+
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+transform: rotate(-1.49deg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.card11{
+    
+position: absolute;
+width: 350px;
+height: 371px;
+left: 15.38px;
+top: 9.32px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+border-radius: 20px;
+transform: rotate(0.89deg);
+}
+.card2{
+    /* Car repair shop */
+
+
+width: 358.49px;
+height: 371px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01), 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+border-radius: 20px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+.card3{
+    /* Hospital */
+
+
+position: absolute;
+width: 350px;
+height: 371px;
+left: 0px;
+top: 0px;
+
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+
+}
+.card33{
+    /* Rectangle 6 */
+
+
+position: absolute;
+width: 350px;
+height: 371px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+border-radius: 20px;
+}
+
+.p3{
+    /* Help Me BENEFITS */
+
+
+position: absolute;
+width: 384px;
+height: 51px;
+left: 528px;
+top: 1783px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 46.3862px;
+line-height: 50px;
+/* identical to box height, or 109% */
+
+
+
+
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.benefit1{
+    /* Rectangle 2801 */
+
+
+position: absolute;
+width: 1060px;
+height: 304px;
+left: 50px;
+top: 1886px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+border-radius: 10px;
+}
+
+.imgbenefit1{
+    /* Frame */
+
+
+position: absolute;
+width: 256.79px;
+height: 254.82px;
+left: 838px;
+top: 1911.04px;
+}
+
+.img1{
+    /* 01. */
+
+
+position: absolute;
+width: 114px;
+height: 119px;
+left: 183px;
+top: 1959px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 88px;
+line-height: 119px;
+/* identical to box height, or 135% */
+
+
+/* Help Me */
+
+background: linear-gradient(268.28deg, #3FC3E0 0%, #4CDB80 99.87%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+}
+
+.pbenef1{
+    /* Save a lot of time */
+
+
+position: absolute;
+width: 190px;
+height: 65px;
+left: 329px;
+top: 1985px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 33.9429px;
+line-height: 32px;
+/* or 96% */
+
+
+color: #000000;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+}
+
+.p2benef1{
+    /* You can search in a faster way through advanced filters. */
+
+
+position: absolute;
+width: 385px;
+height: 47px;
+left: 191px;
+top: 2070px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 23px;
+/* or 105% */
+
+
+color: #9E9DA2;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+}
+
+.benefit2{
+    /* Rectangle 2802 */
+
+
+position: absolute;
+width: 1060px;
+height: 304px;
+left: 80px;
+top: 1900px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+border-radius: 10px;
+}
+.img2{
+    /* 02. */
+
+
+    position: absolute;
+    width: 126px;
+    height: 119px;
+    left: 848px;
+    top: 2319px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 88px;
+    line-height: 119px;
+    /* identical to box height, or 135% */
+    
+    
+    /* Help Me */
+    
+    background: linear-gradient(268.28deg, #3FC3E0 0%, #4CDB80 99.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+}
+
+.imgbenefit2{
+  /* Frame */
+
+
+position: absolute;
+width: 248px;
+height: 226.21px;
+left: 340px;
+top: 2285px;
+}
+
+.benefit3{
+    /* Rectangle 2803 */
+
+
+position: absolute;
+width: 1060px;
+height: 304px;
+left: 50px;
+top: 2000px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+border-radius: 10px;
+}
+
+.img3{
+    /* 03. */
+
+
+position: absolute;
+width: 125px;
+height: 119px;
+left: 188px;
+top: 2658px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 88px;
+line-height: 119px;
+/* identical to box height, or 135% */
+
+
+/* Help Me */
+
+background: linear-gradient(268.28deg, #3FC3E0 0%, #4CDB80 99.87%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+}
+
+.imgbenefit3{
+    /* Frame */
+
+
+position: absolute;
+width: 310.6px;
+height: 233.55px;
+left: 789px;
+top: 2646px;
+}
+
+.pbenef3{
+    /* Updated information 24/7 */
+
+
+position: absolute;
+width: 264px;
+height: 65px;
+left: 334px;
+top: 2684px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 33.9429px;
+line-height: 32px;
+/* or 96% */
+
+
+color: #000000;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+}
+
+.p2benef3{
+    /* All the places you will find are real and valid. */
+
+
+position: absolute;
+width: 520px;
+height: 47px;
+left: 190px;
+top: 2768px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 23px;
+/* or 105% */
+
+
+color: #9E9DA2;
+
+}
+
+.pbenef2{
+
+/* Save cash */
+
+
+position: absolute;
+width: 79px;
+height: 65px;
+left: 994px;
+top: 2345px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 33.9429px;
+line-height: 32px;
+/* or 96% */
+
+
+color: #000000;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+}
+
+.p2benef2{
+    /* By using our free services to find everything you need with one click. */
+
+
+position: absolute;
+width: 385px;
+height: 47px;
+left: 856px;
+top: 2430px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 23px;
+/* or 105% */
+
+
+color: #9E9DA2;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+}
+
+.footer{
+
+/* Footer 16 white */
+
+
+/* Auto layout */
+
+
+
+
+position: absolute;
+width: 1440px;
+height: 525px;
+left: 0px;
+top: 5000px;
+
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+border-radius: 0px;
+}
+#learn{
+    /* Learn more */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 1px 0px 0px;
+gap: 18px;
+
+position: absolute;
+left: 42.01%;
+right: 49.27%;
+top: 0%;
+bottom: 31.38%;
+
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+}
+.learn{
+    /* Learn More */
+
+
+width: 95px;
+height: 22px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Dark */
+
+color: #0A142F;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.about{
+    /* About Alyeska Press */
+
+
+width: 87px;
+height: 150px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 30px;
+/* or 214% */
+
+
+/* Dark */
+
+color: #0A142F;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+#contact{
+    /* Contact Us */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 0px 1px 0px 0px;
+gap: 23px;
+
+position: absolute;
+left: 56.62%;
+right: 23.41%;
+top: 0%;
+bottom: 46.38%;
+
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+}
+
+.contact{
+    /* Contact Us */
+
+
+width: 225.59px;
+height: 22px;
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Dark */
+
+color: #0A142F;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.phone{
+/* 800-880-3880 */
+
+
+width: 77px;
+height: 17px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 17px;
+
+/* Dark */
+
+color: #0A142F;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.f{
+    /* Hotel Reservation: */
+
+
+width: 69px;
+height: 16px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+
+/* Dark */
+
+color: #0A142F;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.b{
+    /* Ticket Office: */
+
+
+width: 68px;
+height: 16px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+
+/* Dark */
+
+color: #0A142F;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#f{
+    /* Group 49 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 14px;
+
+width: 225.59px;
+height: 18px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#b{
+    /* Group 48 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 13px;
+
+width: 225.59px;
+height: 18px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.social{
+    /* Social */
+
+
+width: 52px;
+height: 22px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Dark */
+
+color: #0A142F;
+
+text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.01);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+#social{
+    /* Social */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+left: 82.49%;
+right: 0%;
+top: 0%;
+bottom: 60.38%;
+
+box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+}
+.hr{
+    /* Divider */
+
+
+position: absolute;
+left: 5.63%;
+right: 5.63%;
+top: 85.54%;
+bottom: 14.15%;
+
+/* Dark */
+
+background: #0A142F;
+mix-blend-mode: normal;
+opacity: 0.2;
+border: 1px solid #979797;
+}
+.end{
+    /* © 2019 Alyeska Resor */
+
+
+position: absolute;
+height: 16px;
+left: 39.2%;
+right: 36.84%;
+top:95.00%;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+/* Dark */
+
+color: #0A142F;
+
+mix-blend-mode: normal;
+opacity: 0.65;
+}
