@@ -36,31 +36,31 @@ const HospitalS = () => {
         console.log(id);
         console.log(JSON.stringify({ ip_s: select, description: user, holiday: day, longitude: long, laditude: lat }));
 
-         await axios.put('https://dani2.pythonanywhere.com/hospitals/' + id + '/',
-            JSON.stringify({ ip_t: select, hospital_name: user, specialization: day, longitude: long, laditude: lat, description:pwd2 }),
-            {
-                headers: { 'Content-Type': 'application/json', "Access-Control-Allow-Origin": "*" },
-                withCredentials: true
-            }
-        ).then((data) => {
-            console.log(data.data);
-            // console.log(data.data.night_shift)
+        //  await axios.put('https://dani2.pythonanywhere.com/hospitals/' + id + '/',
+        //     JSON.stringify({ ip_t: select, hospital_name: user, specialization: day, longitude: long, laditude: lat, description:pwd2 }),
+        //     {
+        //         headers: { 'Content-Type': 'application/json', "Access-Control-Allow-Origin": "*" },
+        //         withCredentials: true
+        //     }
+        // ).then((data) => {
+        //     console.log(data.data);
+        //     // console.log(data.data.night_shift)
 
-            localStorage.setItem("id", data.data.hospital);
-
-
+        //     localStorage.setItem("id", data.data.hospital);
 
 
-            //console.log(JSON.stringify(response?.data));
-            //console.log(JSON.stringify(response))
-
-            //clear state and controlled inputs
-
-            navigate('HO');
-        }
-        );
 
 
+        //     //console.log(JSON.stringify(response?.data));
+        //     //console.log(JSON.stringify(response))
+
+        //     //clear state and controlled inputs
+
+        //     navigate('HO');
+        // }
+        // );
+
+        navigate('HO');
 
     }
     return (

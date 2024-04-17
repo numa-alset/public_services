@@ -35,31 +35,31 @@ const PharmS = () => {
         console.log(id);
         console.log(JSON.stringify({ night_shift: select, pharmacy_name: user, holiday: day, longitude: long, laditude: lat, duration:pwd2 }));
 
-          await axios.put('https://dani2.pythonanywhere.com/pharmacy/' + id + '/',
-              JSON.stringify({ night_shift: select, pharmacy_name: user, holiday: day, longitude: long, laditude: lat, duration: pwd2 }),
-            {
-                headers: { 'Content-Type': 'application/json', "Access-Control-Allow-Origin": "*" },
-                withCredentials: true
-            }
-        ).then((data) => {
-            console.log(data.data);
-            // console.log(data.data.night_shift)
+        //   await axios.put('https://dani2.pythonanywhere.com/pharmacy/' + id + '/',
+        //       JSON.stringify({ night_shift: select, pharmacy_name: user, holiday: day, longitude: long, laditude: lat, duration: pwd2 }),
+        //     {
+        //         headers: { 'Content-Type': 'application/json', "Access-Control-Allow-Origin": "*" },
+        //         withCredentials: true
+        //     }
+        // ).then((data) => {
+        //     console.log(data.data);
+        //     // console.log(data.data.night_shift)
 
 
 
 
 
 
-            //console.log(JSON.stringify(response?.data));
-            //console.log(JSON.stringify(response))
+        //     //console.log(JSON.stringify(response?.data));
+        //     //console.log(JSON.stringify(response))
 
-            //clear state and controlled inputs
+        //     //clear state and controlled inputs
 
-            navigate('PH');
-        }
-        );
+        //     navigate('PH');
+        // }
+        // );
 
-
+        navigate('PH');
 
     }
     return (

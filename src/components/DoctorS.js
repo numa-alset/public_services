@@ -35,30 +35,30 @@ const DoctorS = () => {
         console.log(id);
         console.log(JSON.stringify({ ip_s: select, description: user, holiday: day, longitude: long, laditude: lat }));
        
-            await axios.put('https://dani2.pythonanywhere.com/doctors/' + id + '/',
-                JSON.stringify({ ip_s: select, description: user, holiday: day, longitude: long, laditude:lat }),
-                {
-                    headers: { 'Content-Type': 'application/json', "Access-Control-Allow-Origin": "*" },
-                    withCredentials: true
-                }
-            ).then((data) => {
-                console.log(data.data);
-                // console.log(data.data.night_shift)
+            // await axios.put('https://dani2.pythonanywhere.com/doctors/' + id + '/',
+            //     JSON.stringify({ ip_s: select, description: user, holiday: day, longitude: long, laditude:lat }),
+            //     {
+            //         headers: { 'Content-Type': 'application/json', "Access-Control-Allow-Origin": "*" },
+            //         withCredentials: true
+            //     }
+            // ).then((data) => {
+            //     console.log(data.data);
+            //     // console.log(data.data.night_shift)
                
             
 
 
 
             
-            //console.log(JSON.stringify(response?.data));
-            //console.log(JSON.stringify(response))
+            // //console.log(JSON.stringify(response?.data));
+            // //console.log(JSON.stringify(response))
 
-            //clear state and controlled inputs
+            // //clear state and controlled inputs
           
-            navigate('DO');
-            }
-            );
-
+            // navigate('DO');
+            // }
+            // );
+        navigate('DO');
     
         
     }

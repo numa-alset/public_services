@@ -33,35 +33,36 @@ const UserSingup =()=>{
             alert("Invalid password and match");
             return;
         }
-        console.log(JSON.stringify({ 'username': user, 'password': pwd, 'password2': pwd2, 'user_type': select, 'email': email, 'phone': number, 'first_name': '', 'last_name': '' }));
-        try {
-            const response = await axios.post('https://dani2.pythonanywhere.com/myprofile/register/',
-                JSON.stringify({ 'username': user, 'password': pwd, 'password2': pwd2, 'user_type': select, 'email': email, 'phone': number, 'first_name': '', 'last_name': '' }), {
-                    headers: { 'Content-Type': 'application/json', "Access-Control-Allow-Origin": "*" },
+        // console.log(JSON.stringify({ 'username': user, 'password': pwd, 'password2': pwd2, 'user_type': select, 'email': email, 'phone': number, 'first_name': '', 'last_name': '' }));
+        // try {
+        //     const response = await axios.post('https://dani2.pythonanywhere.com/myprofile/register/',
+        //         JSON.stringify({ 'username': user, 'password': pwd, 'password2': pwd2, 'user_type': select, 'email': email, 'phone': number, 'first_name': '', 'last_name': '' }), {
+        //             headers: { 'Content-Type': 'application/json', "Access-Control-Allow-Origin": "*" },
 
-                withCredentials: true
-            }
-            );
-            let id = response.data.id;
-            setAuth(id);
-            console.log(response.data.id)
-            localStorage.setItem("id", response.data.id)
-           console.log(JSON.stringify(response?.data));
-            //console.log(JSON.stringify(response))
-            console.log(auth);
+        //         withCredentials: true
+        //     }
+        //     );
+        //     let id = response.data.id;
+        //     setAuth(id);
+        //     console.log(response.data.id)
+        //     localStorage.setItem("id", response.data.id)
+        //    console.log(JSON.stringify(response?.data));
+        //     //console.log(JSON.stringify(response))
+        //     console.log(auth);
             //clear state and controlled inputs
-            setUser('');
-            setPwd('');
-            setNumber('');
-            setPwd2('');
-            setEmail('');
-            setMatchPwd('');
-            navigate(select);
+            // setUser('');
+            // setPwd('');
+            // setNumber('');
+            // setPwd2('');
+            // setEmail('');
+            // setMatchPwd('');
+            console.log(select);
+        navigate(select.toString());
         
             
-        } catch (err) {
-         console.log(err);
-        }
+        // } catch (err) {
+        //  console.log(err);
+        // }
     }
     return(
         <div>
@@ -73,12 +74,12 @@ const UserSingup =()=>{
                </div>
                 <div className="select">
                     <select class="input" onChange={(e) => setSelect(e.target.value)} value={select}>
-                        <option class="text" value="US"> User  <SlArrowDown /> </option>
+                        <option class="text" value="us"> User  <SlArrowDown /> </option>
                         <option class="text" value="PH">Pharmacy</option>
                         <option class="text" value="DR">Doctor</option>
                         <option class="text" value="HO">Hospital</option>
                         <option class="text" value="ME">RepairCar</option>
-                        <option class="text" value="TR">TravelCompany</option>
+                        {/* <option class="text" value="TR">TravelCompany</option> */}
                     </select>
                 </div>
               <div>
