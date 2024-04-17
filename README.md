@@ -3,9 +3,9 @@ website that helps you find a nearest health facility or based on filters , the 
 ## see project pictures in pic folder 
 ## some Picture
 ### home screen
-![screenshot](pic\Screenshot(224).png)
+![screenshot](pic/Screenshot(224).png)
 ### map screen
-![screenshot](new.png)
+![screenshot](pic/new.png)
 ## run in ur local
 ### clone the project
 ### run npm install
