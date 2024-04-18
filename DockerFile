@@ -1,17 +1,17 @@
 # Use the official Node.js image as the base image
-FROM node:18-alpine
+FROM node:10.16.0-alpine
 
 # Set the working directory in the container
 WORKDIR /app
 
 # Copy the application files into the working directory
-COPY public
-Copy src
-copy package.json
+COPY public ./
+COPY src ./
+COPY package.json ./
 
 # Install the application dependencies
-RUN npm install
-
+RUN npm install --force --legacy-peer-deps
+RUN npm update eslint-webpack-plugin
 # Build the React application
 RUN npm run build
 
