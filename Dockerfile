@@ -1,5 +1,5 @@
 # Use the official Node.js image as the base image
-FROM node:10.16.0-alpine
+FROM node:18-alpine
 
 # Set the working directory in the container
 WORKDIR /app
@@ -11,10 +11,10 @@ COPY package.json ./
 
 # Install the application dependencies
 RUN npm install --force --legacy-peer-deps
-
+RUN npm uninstall eslint-webpack-plugin
+RUN rm -rf app/node_modules/eslint-webpack-plugin
 # Build the React application
-RUN npm run build --force --legacy-peer-deps
-
+RUN npm run build 
 # Expose port 3000
 EXPOSE 3000
 
