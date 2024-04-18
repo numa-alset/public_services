@@ -11,9 +11,9 @@ COPY package.json ./
 
 # Install the application dependencies
 RUN npm install --force --legacy-peer-deps
-RUN npm update eslint-webpack-plugin
+
 # Build the React application
-RUN npm run build
+RUN npm run build --force --legacy-peer-deps
 
 # Expose port 3000
 EXPOSE 3000
